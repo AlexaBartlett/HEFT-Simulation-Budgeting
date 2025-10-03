@@ -6,7 +6,7 @@
 
 ## Sub-directory Structure ##
 Within each training set directory there are several files:
-- `info.txt`: Parameters used to generate the training data: $V_{\rm obs}$ $(h^{-3}\,{\rm Mpc}^3)$, $\Delta k$ $(h\,{\rm Mpc}^{-1})$, ZCV (true for yes, false for no)
+- `info.txt`: Parameters used to generate the training data: $V_{\rm obs}$ $(h^{-3}{\rm Mpc}^3)$, $\Delta k$ $(h{\rm Mpc}^{-1})$, ZCV (true for yes, false for no)
 - `k_out.txt`: contains the ks corresponding to all powerspectra (aside from `pk_lin.npy`, see below). By default, $k$ values are expressed in $h\,{\rm Mpc}^{-1}$.
 - `params.txt`: File containing cosmologies in this training set. The number of rows should equal the number of the cosmologies used to create the training data (not including the header)
 - `pk_1L.npy`: File containing 1-loop power spectra computed using velocileptors RKECLEFT. Once read in using numpy, the result is a 3D array of shape ($N_{\rm cosmo},\,N_{z},\,N_{k}$). For all trainig sets here, $N_z=30$ and $N_k=700$.
