@@ -1,5 +1,5 @@
 # Aemulus Data #
-This directory contains a mix of measurements from [Aemulus $\nu$](https://arxiv.org/pdf/2303.09762) simulations and the single $w_0w_a{\rm CDM}+m_\nu$ simulation described in the text of our paper. The contents of this directory are described below:
+This directory contains a mix of measurements from [Aemulus $\nu$ ](https://arxiv.org/pdf/2303.09762) simulations and the single $w_0w_a{\rm CDM}+m_\nu$ simulation described in the text of our paper. The contents of this directory are described below:
 - `aemulus_nu_kbins.npy`: $k$-bins
 - `k_edges.npy`: $k$-bin edges
 - `basis_spectra_nbody_pk_rsd=False_pypower=True_a0.6504_nmesh1400.npy`: HEFT basis spectra at z=0.53 for our single $w_0w_a{\rm CDM}+m_{\nu}$ simulation 
