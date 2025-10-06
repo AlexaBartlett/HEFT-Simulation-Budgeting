@@ -15,8 +15,8 @@ This directory contains a mix of measurements from [Aemulus $\nu$](https://arxiv
 - `pgm_quad.txt`: Best-fit $P_{gm}(k)$ with quadratic bias ($\Lambda{\rm CDM}$)
 - `pgm_lin.txt`: Best-fit $P_{gm}(k)$ with linear bias ($\Lambda{\rm CDM}$)
 - `pk_kp1.npy`: Measured $P_{mm}(k=0.1h{\rm Mpc}^{-1})$ for each aemulus $\nu$ simulation at $z=0.46$ (first column) and $z=0.95$ (second column)
-- `quadfit_auto.txt`: Best-fit $P_{gg}(k)$ with quadratic bias ($w_0w_a{\rm CDM}+m_nu$)
-- `quadfit_cross.txt`: Best-fit $P_{gm}(k)$ with quadratic bias ($w_0w_a{\rm CDM}+m_nu$)
+- `quadfit_auto.txt`: Best-fit $P_{gg}(k)$ with quadratic bias ($w_0w_a{\rm CDM}+m_\nu$)
+- `quadfit_cross.txt`: Best-fit $P_{gm}(k)$ with quadratic bias ($w_0w_a{\rm CDM}+m_\nu$)
 - `rho_z1.txt`: $\rho(k,z=0.95)$ for first simulation in Aemulus $\nu$ suite
 - `rho_zp5.txt`: $\rho(k,z=0.46)$ for first simulation in Aemulus $\nu$ suite
 - `rho_zp25.txt`: $\rho(k,z=0.27)$ for first simulation in Aemulus $\nu$ suite
