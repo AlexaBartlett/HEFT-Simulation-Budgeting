@@ -15,3 +15,6 @@ pip install pyccl
 pip install pyspk
 pip install -v git+https://github.com/AemulusProject/aemulus_heft
 ```
+
+## In this Repository
+This repository contains the code and information used to produce figures and most of the data in (paper). If you wish to generate your own train/test data and train your own emulator, the notebooks you will need to use are **generate_training_data.ipynb** and **emulator_training**. The other notebooks produce the figures appearing in our paper. All data needed to run those notebooks is contained in the other folders in this repository. For more details on what each notebook does, click on it and read the description near the top. 
