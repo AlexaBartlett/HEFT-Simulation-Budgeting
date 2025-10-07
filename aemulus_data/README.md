@@ -1,0 +1,23 @@
+# Aemulus Data #
+This directory contains a mix of measurements from [Aemulus nu](https://arxiv.org/pdf/2303.09762) simulations and the single $w_0w_a{\rm CDM}+m_\nu$ simulation described in the text of our paper. The contents of this directory are described below:
+- `aemulus_nu_kbins.npy`: $k$-bins
+- `k_edges.npy`: $k$-bin edges
+- `basis_spectra_nbody_pk_rsd=False_pypower=True_a0.6504_nmesh1400.npy`: HEFT basis spectra at z=0.53 for our single $w_0w_a{\rm CDM}+m_{\nu}$ simulation 
+- `krhos.npy`: best-fit values of $k_\rho$ for all Aemulus $\nu$ simulations at all redshifts in `aemulus_nu_zs.npy`
+- `p_gg_lcdm.npy`: $P_{gg}(k)$ measured from a single $\Lambda{\rm CDM}$ simulation, used for bias fits in `linear_cubic_fits.ipynb`
+- `p_gg_w0wa.npy`: $P_{gg}(k)$ measured from a single $w_0w_a{\rm CDM}+m_\nu$ simulation, used for bias fits in `quad_bias_fits.ipynb`
+- `p_gm_lcdm.npy`: $P_{gm}(k)$ measured from a single $\Lambda{\rm CDM}$ simulation, used for bias fits in `linear_cubic_fits.ipynb`
+- `p_gm_w0wa.npy`: $P_{gm}(k)$ measured from a single $w_0w_a{\rm CDM}+m_\nu$ simulation, used for bias fits in `quad_bias_fits.ipynb`
+- `pgg_cubic.txt`: Best-fit $P_{gg}(k)$ with cubic bias ($\Lambda{\rm CDM}$)
+- `pgg_quad.txt`: Best-fit $P_{gg}(k)$ with quadratic bias ($\Lambda{\rm CDM}$)
+- `pgg_lin.txt`: Best-fit $P_{gg}(k)$ with linear bias ($\Lambda{\rm CDM}$)
+- `pgm_cubic.txt`: Best-fit $P_{gm}(k)$ with cubic bias ($\Lambda{\rm CDM}$)
+- `pgm_quad.txt`: Best-fit $P_{gm}(k)$ with quadratic bias ($\Lambda{\rm CDM}$)
+- `pgm_lin.txt`: Best-fit $P_{gm}(k)$ with linear bias ($\Lambda{\rm CDM}$)
+- `pk_kp1.npy`: Measured $P_{mm}(k=0.1h{\rm Mpc}^{-1})$ for each aemulus $\nu$ simulation at $z=0.46$ (first column) and $z=0.95$ (second column)
+- `quadfit_auto.txt`: Best-fit $P_{gg}(k)$ with quadratic bias ($w_0w_a{\rm CDM}+m_\nu$)
+- `quadfit_cross.txt`: Best-fit $P_{gm}(k)$ with quadratic bias ($w_0w_a{\rm CDM}+m_\nu$)
+- `rho_z1.txt`: $\rho(k,z=0.95)$ for first simulation in Aemulus $\nu$ suite
+- `rho_zp5.txt`: $\rho(k,z=0.46)$ for first simulation in Aemulus $\nu$ suite
+- `rho_zp25.txt`: $\rho(k,z=0.27)$ for first simulation in Aemulus $\nu$ suite
+- `zs.npy`: aemulus $\nu$ redshifts (and redshifts used in data generation)
