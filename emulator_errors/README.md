@@ -7,4 +7,4 @@
 This directory contains `kerr` and `stderr` files for emulators trained on the following:
 - Tier 1 $w_0w_a{\rm CDM}+m_{\nu}$ train/test data, full $k$ range
 - Tier 2 $w_0w_a{\rm CDM}+m_{\nu}$ train/test data, full $k$ range
-- Example train/test data, to $k_{\rm max}=1 h {\rm Mpc}^{-1}$
+- Example tier 1 train/test data, to $k_{\rm max}=1 h {\rm Mpc}^{-1}$
